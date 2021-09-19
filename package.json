@@ -1,0 +1,28 @@
+{
+  "name": "node_api_personas",
+  "version": "1.0.0",
+  "description": "Creación de una api restful de los datos de una persona creado en node express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harlericho/node_api_personas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harlericho/node_api_personas/issues"
+  },
+  "homepage": "https://github.com/harlericho/node_api_personas#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12"
+  }
+}
