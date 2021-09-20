@@ -20,7 +20,7 @@ router.get('/:id', (req, res) => {
         if (Object.keys(result).length > 0) {
             res.status(200).json({
                 'respuesta': true,
-                'mensaje': result
+                'personas': result
             })
         } else {
             res.status(400).json({
