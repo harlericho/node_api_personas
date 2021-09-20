@@ -3,7 +3,7 @@ Creación de una api restful de los datos de una persona creado en node express
 ![](https://www.comaporter.com/wp-content/uploads/2021/05/curso-gratis-backend-node-js-express.jpg)
 
 # Pasos para funcionar el sistema:
-### 1 .- Api hecha en laravel - Usamos la base de datos personas
+### 1 .- Api hecha en laravel - Usamos la tabla personas
 > https://github.com/harlericho/laravel_api_personas.git
 
 ### 2 .- Cambiar la configuración de la conexión:
