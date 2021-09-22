@@ -51,7 +51,7 @@ router.post('/', [
 
         }),
     check('nombres', 'Nombres es requerido').not().isEmpty(),
-    check('correo', 'Correo es requerido').isEmail(),
+    check('correo', 'Correo es requerido').not().isEmpty(),
     check('correo', 'Correo es debe ser valido').isEmail(),
     check('correo')
         .custom((value, { req }) => {
@@ -109,7 +109,7 @@ router.put('/:id', [
 
         }),
     check('nombres', 'Nombres es requerido').not().isEmpty(),
-    check('correo', 'Correo es requerido').isEmail(),
+    check('correo', 'Correo es requerido').not().isEmpty(),
     check('correo', 'Correo es debe ser valido').isEmail(),
     check('correo')
         .custom((value, { req }) => {
