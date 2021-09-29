@@ -1,8 +1,8 @@
 const mysql = require('mysql');
 const mysqlConexion = mysql.createConnection({
     host: 'localhost',
-    user: 'charlie',
-    password: 'charlie',
+    user: 'root',
+    password: '',
     database: 'laravel_api_personas'
 })
 mysqlConexion.connect((error) => {
